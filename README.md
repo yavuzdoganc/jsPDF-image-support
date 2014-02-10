@@ -66,12 +66,6 @@ doc.save(_tempFile);
 
 ```
 
-### Community Enhancements ###
-
-If you manage to improve this project then please tweet me [twitter.com/core_13](twitter.com/core_13) to share what you have achieved and if suitable I will include your changes in the main project and credit you in the code and here.
-
 ### Restrictions ###
 
 The jsPDF image module is free for use with personal or commercial projects.
-Do what you like with this, no need to credit me - but you can [get in touch](http://core13.co.uk/contact/) to brag about how you used it if you like.
-jsPDF licence is available via their website.

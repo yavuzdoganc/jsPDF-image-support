@@ -1,0 +1,7 @@
+<Alloy>
+	
+<Window id='container'>
+	<Label></Label>
+	<Button onClick="testPDF"></Button>
+</Window>		
+</Alloy>

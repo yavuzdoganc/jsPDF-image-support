@@ -1,9 +1,8 @@
-#appname: jsPDF
-#appid: com.core13.jspdf
-#type: mobile
-#guid: 13f3b74d-4b91-4cc6-a504-ddf5b61a1edf
-#version: 1.0
-#publisher: not specified
-#url: not specified
-#image: appicon.png
-#desc: not specified
+#appname:jsPDF
+#publisher:yavuzdoganc
+#url:http://
+#image:appicon.png
+#appid:com.backbonecompany.jsPDF
+#desc:not specified
+#type:ipad
+#guid:762ed6fb-937a-41a4-8f99-61b7dade5e95
