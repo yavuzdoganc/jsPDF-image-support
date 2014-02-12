@@ -1,11 +1,12 @@
 /**
  * for now code generates only one pdf file
- * @TODO: 
+ * @TODO: jspdf fixes 
  * create multiple files
  * remove old files when given TTL received
  * 
  * add support template files with place holders
  * use google pdf reader for android 
+ * fix images issue for android 
  */
 
 
@@ -159,14 +160,14 @@ function createPDF() {
 }
 
 function showPDF() {
-        
+
     if (_isAndroid) {
       var intent = Ti.Android.createIntent({
         action: Ti.Android.ACTION_VIEW,
         type: "application/pdf",
         data: _tempFile.nativePath
       });
-      
+
       try {
         Ti.Android.currentActivity.startActivity(intent);
       } catch(e) {
@@ -218,3 +219,14 @@ function testPDF() {
   createPDF();
   showPDF(); 
 }    
+
+
+function testSignature() {
+  var signatureCtl = Alloy.createController("signature", {});  
+  var signatureView = signatureCtl.getView(); 
+  signatureView.open();
+}
+
+
+
+

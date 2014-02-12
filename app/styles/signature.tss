@@ -1,0 +1,21 @@
+
+"#container" : {
+    backgroundColor:'#ddd'
+}
+
+".wrapper": {
+  width:'95%',
+  top:-50,
+  height:250,
+  borderColor:'#aaa',
+  borderWidth:2,
+  backgroundColor:'#fff'
+}
+
+
+".wrapperShadow": {
+  width:'95%',
+  height:2,
+  backgroundColor:'#bbb',
+  top:247
+}

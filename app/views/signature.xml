@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id='container'>
+		<View class="wrapper">
+		 <View class="wrapperShadow">
+		 	
+		 </View>	
+		</View>
+	</Window>
+</Alloy>

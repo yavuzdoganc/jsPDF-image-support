@@ -2,6 +2,8 @@
 	
 <Window id='container'>
 	<Label></Label>
-	<Button onClick="testPDF"></Button>
+        
+	<Button  onClick="testPDF" title='Run PDF Sample'></Button>
+	<Button onClick="testSignature" title="Run signature example"></Button>
 </Window>		
 </Alloy>
