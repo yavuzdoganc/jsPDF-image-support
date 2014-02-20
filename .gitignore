@@ -8,5 +8,5 @@ tmp
 Resources
 build
 .fastdev.lock
-.project
+#.project
 .settings
